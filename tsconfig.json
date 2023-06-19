@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": [
+      "es6"
+    ],
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/interfaces"
+    ]
+  },
+  "exclude": [
+    "./node_modules",
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}
